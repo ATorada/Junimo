@@ -1,0 +1,95 @@
+body {
+    background-color: blue;
+    background-image: url(../img/fondo.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+h1 {
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    color: #ffffff;
+    text-shadow: 0 0 15px rgb(255, 255, 255), 0 0 20px #8418ff, 0 0 30px #a318ff, 0 0 40px #b618ff, 0 0 55px #b618ff, 0 0 75px #9718ff;
+}
+
+#junimo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    transition: all 1s ease-in-out, left .5s ease-in-out, top .5s ease-in-out;
+}
+
+#controles {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1rem;
+}
+
+#cursor {
+    position: absolute;
+    transform: translate(-60%, -80%);
+    height: 35px;
+    width: 35px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+select {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(243, 226, 255);
+    width: 150px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #e2d1ff, #df74b8);
+}
+
+/* #contenedor::before {
+    content: "\A0";
+} */
+
+#contenedor {
+    position: absolute;
+    width: 60rem;
+    height: 20rem;
+    background-image: url(../img/fondo_junimo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 10px;
+    border-image-source: linear-gradient(to left, #e2d1ff, #df74b8);
+    filter: brightness(95%);
+}
+
+
+#bocadillo {
+    position: absolute;
+    opacity: 0;
+    font-weight: bold;
+    background-color: white;
+    padding: .5rem;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #e2d1ff, #df74b8);
+    transition: all .5s ease-in-out;
+}
