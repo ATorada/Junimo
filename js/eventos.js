@@ -9,6 +9,7 @@ async function init() {
     audios = document.querySelectorAll('audio');
 
     let frases_normales = [
+        ["FELIS CUMPLEAÑOS", 10],
         ["Holi", 2],
         ["¡Tengo hambre!", 8],
         ["Me he pasado con el café", 13],
