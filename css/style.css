@@ -83,7 +83,7 @@ select {
 
 #bocadillo {
     position: absolute;
-    opacity: 0;
+    opacity: 1;
     font-weight: bold;
     background-color: white;
     padding: .5rem;
